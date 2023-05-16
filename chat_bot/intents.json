@@ -1,0 +1,31 @@
+{
+     "intents" : [
+        {
+            "tag" : "greeetings",
+            "patterns" : ["hello", "hey", "hi", "good day", "greetings", "what's up " ],
+            "responses" : ["hello", "hey", "what can I do for you?"],
+            "fucntionCall" : []
+        }
+        ,
+        {
+            "tag" : "Hospital querry",
+            "patterns" : ["where is this hospital situated?", "Hospital place?", "how to go to the hospital?" ],
+            "responses" : ["This hospital is situated at Dhanmondi , Dhaka ", "You will find our hospital at the 2nd lane of Dhanmondi 32."],
+            "fucntionCall" : []  
+        },
+        {
+            "tag" : "Doctor_ Query",
+            "patterns" : ["Tell me about  the doctors", "Available doctors", "Tell the doctors informations" ],
+            "responses" : ["You may check the all doctors page link - "] ,
+            "fucntionCall" : []
+        }
+        ,
+        {
+            "tag" : "Appointment",
+            "patterns" : ["I want to place an appointment", "want an appointment" ],
+            "responses" : ["redicted to place appointment page - "] ,
+            "fucntionCall" : []
+        }
+
+     ]
+}

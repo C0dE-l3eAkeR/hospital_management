@@ -1,0 +1,149 @@
+.container {
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100%;
+    max-height: 100%;
+    min-height: 100%;
+    width: 100%;
+    max-width: 100%;
+    min-width: 100%;
+    padding-top: 1px;
+    background-color: #0D7EAA;
+}
+
+.nav {
+    height: 15vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+}
+
+.nav_left {
+    color: snow;
+    font-size: x-large;
+    font-weight: bolder;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+.nav_right {
+
+    display: flex;
+    flex-direction: row;
+    width: 80%;
+    justify-content: space-evenly;
+}
+
+.nav_right_link {
+    background-color: snow;
+    padding: 15px;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: 700;
+}
+
+.box {
+    height: 85vh;
+    display: grid;
+    grid-template-columns: 2fr 4fr;
+
+}
+
+.box_left {
+    width: 80%;
+    height: 50%;
+    margin-top: 20%;
+    margin-left: 10%;
+}
+
+.image {
+    width: 50%;
+    aspect-ratio: 1;
+    margin-left: 25%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.image img 
+{
+    height: 100%;
+    width: 100%;
+}
+
+.prompt {
+    text-align: center;
+    color: snow;
+    font-size: larger;
+}
+
+.box_right {
+    width: 80%;
+    height: max-content;
+    margin-top: 5%;
+    margin-left: 10%;
+    background-color: snow;
+    border-top-left-radius: 30px;
+    border-bottom-left-radius: 30px;
+    padding: 20px;
+
+}
+
+.box_right_top, .button_box, .link_box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.box_right_top_item, .button, .link{
+    background-color: #2828bc;
+    color: snow;
+    font-weight: 700;
+    padding: 10px;
+    border-radius: 10px;
+    margin: 10px;
+    cursor: pointer;
+}
+.box_right_top_selected 
+{
+    color: black;
+    font-weight: 700;
+    padding: 10px;
+    border-radius: 10px;
+    margin: 10px;
+    background-color: snow;
+    border: 2px black solid;
+    cursor: pointer;
+
+}
+.box_right_title
+{
+    background-color: snow;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    font-weight: 700;
+    font-size: x-large;
+}
+.box_right_inputs
+{
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+}
+.box_right_inputs input
+{
+    text-align: center;
+    margin-left: 5px;
+}
+.link_box
+{
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+}
